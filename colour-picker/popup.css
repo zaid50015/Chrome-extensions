@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+.wrapper{
+width: 300px;
+text-align: center;
+padding: 12px;
+}
+.wrapper >h1{
+    font-weight: 600;
+}
+.changeColourBtn{
+    width: 200px;
+    border: none;
+    margin: 10px;
+    border-radius: 5px;
+    padding: 6px;
+    cursor: pointer;
+    background-color:#facc15;
+    color: white;
+}
+.selectedColor{
+    display: flex;
+    justify-content: center;
+    gap: 3px;
+}
+span{
+    width: 20px;
+    height: 15px;
+    display: inline-block;
+}
